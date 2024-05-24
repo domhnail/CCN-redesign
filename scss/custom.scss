@@ -1,0 +1,93 @@
+//importing custom colors
+$custom-colors: (
+  "chebuctoGrn": #006400,
+  "chebuctoDeepGrn": #094a0a,
+  "chebuctoPalerGrn": #317831,
+  "chebuctoGrey": #393939,
+  "highlightGrn": #00D600,
+  "offGrey": #9D9D9D,
+  "offWhite": #cccccc,
+  "distinguishedWhite": #ebebeb,
+  "highlightBlu": #b7c9e2
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+//fix for mobile issues
+body {
+  overflow-x: hidden;
+}
+
+//setting color classes
+.bg-chebuctoGrn {
+  background-color: map-get($theme-colors, "chebuctoGrn");
+}
+
+.bg-highlightGrn {
+  background-color: map-get($theme-colors, "highlightGrn");
+}
+
+.bg-chebuctoPalerGrn {
+  background-color: map-get($theme-colors, "chebuctoPalerGrn");
+}
+
+.bg-chebuctoGrey {
+  background-color: map-get($theme-colors, "chebuctoGrey");
+}
+
+.bg-offWhite {
+  background-color: map-get($theme-colors, "offWhite");
+}
+
+.bg-distinguishedWhite {
+  background-color: map-get($theme-colors, "distinguishedWhite");
+}
+
+.bg-highlightBlu {
+  background-color: map-get($theme-colors, "highlightBlu");
+}
+
+.outline-offGrey {
+  border-color: map-get($theme-colors, "offGrey");
+}
+
+.outline-highlightGrn {
+  border-color: map-get($theme-colors, "highlightGrn");
+}
+
+.footerLinkColor {
+  color: map-get($theme-colors, "highlightGrn");
+}
+
+.color-chebuctoDeepGrn {
+  color: map-get($theme-colors, "chebuctoDeepGrn");
+}
+
+//landing page custom styling
+@include media-breakpoint-up(lg) {
+.rounded-end {
+  border-radius: 0 3rem 3rem 0;
+}
+}
+//mobile nav bar
+@include media-breakpoint-down(lg) {
+  //navbar
+  .vanityText {
+    display: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 101%;
+    right: 0%;
+    z-index: 1000;
+    background-color: map-get($theme-colors, "chebuctoGrn"); 
+    width: 60%;
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .nav-item .btn {
+    width: 100%;
+    display: block;
+    font-size: large;
+  }
+}
