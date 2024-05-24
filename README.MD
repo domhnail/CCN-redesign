@@ -1,1 +1,0 @@
-This is a repository containing all the HTML and SCSS for my redesign of the Chebucto Community Net website.

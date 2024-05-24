@@ -1,0 +1,137 @@
+<!--
+    Home Page Mockup for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/05/21
+    Modified: 2024/05/22
+
+    Filename:   committees.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="The home page for chebucto's client side site">
+      <meta name="keywords" content="Homepage, Email, Donations, Neighbourhood,  Updates">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+      <title>Chebucto Committees</title>
+      <!--Bootstrap link-->
+      <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="scss/custom.css" rel="stylesheet">
+      <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Home</button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Services</button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">About Us</button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Contact Us</button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button">Login</button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Chebucto<br>Committees</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+
+      <main class="container">
+        <!-- Row for Policy and Tech Committee Boxes -->
+        <div class=" align-items-stretch my-sm-3">
+        <!-- Policy Committee Box -->
+        <div class="container-fluid d-flex flex-column p-sm-5 my-5 bg-chebuctoPalerGrn shadow-lg" style="max-width: 80%;">
+          <!-- Row Inside Box -->
+          <div class="row align-items-center px-2 py-3">
+            <!-- Column For Text -->
+            <div class="col-sm-5 col-6 container-fluid px-2">
+              <h4 class="text-white fw-bold">Policy Committee</h4>
+              <p class="text-white"><br>Responsible for the terms and conditions that come with using Chebucto Community Net.</p>
+            </div>
+            <!-- Column for Button -->
+            <div class="col-sm-3 col-5 container-fluid p-0 d-flex justify-content-center">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="policyCommittee.html">Learn More &rightarrow;</a></button>
+            </div> 
+          </div>
+        </div>
+        <!-- Policy Committee Box End -->
+
+        <!-- Tech Committee Box -->
+        <div class="container-fluid d-flex flex-column p-sm-5 my-5 bg-chebuctoPalerGrn shadow-lg" style="max-width: 80%;">
+          <!-- Row Inside Box -->
+          <div class="row align-items-center px-2 py-3">
+            <!-- Column For Text -->
+            <div class="col-sm-5 col-6 container-fluid px-2">
+              <h4 class="text-white fw-bold">Tech Committee</h4>
+              <p class="text-white"><br>Responsible for the development of new CCN products and solutions.</p>
+            </div>
+            <!-- Column for Button -->
+            <div class="col-sm-3 col-5 container-fluid p-0 d-flex justify-content-center">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Learn More &rightarrow;</a></button>
+            </div> 
+          </div>
+        </div>
+        <!-- Tech Committee Box End -->
+      </main>
+
+        <!--Footer Section-->
+        <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </footer>
+        <!--Footer Section End-->
+      </div>
+    </body>
+</html>

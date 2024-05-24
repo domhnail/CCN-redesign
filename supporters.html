@@ -1,0 +1,242 @@
+<!--
+    Supporters Page Mockup for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/04/30
+    Modified: 2024/05/17
+
+    Filename:   supporters.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+		  <meta name="description" content="Acknowleges those who have supported Chebucto">
+		  <meta name="keywords" content="Supporters, Community, Dalhousie, Library, Neighborhood">
+		  <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width">
+		  <title>Community</title>
+      <!--Bootstrap link-->
+      <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="scss/custom.css" rel="stylesheet">
+      <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Home</button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Services</button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">About Us</button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Contact Us</button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Login</button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Our<br>Community</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+        
+        <!--Intro Section-->
+        <div class="container">
+          <div class="container-fluid p-3 my-3 shadow-lg text-white bg-chebuctoGrn">
+            <p class="text-center">We Gratefully Acknowledge the support of the many institutions, organizations, companies, and individuals who have freely contributed time and resources to the establishment and continuing operations of the Chebucto Community Net.</p>
+          </div>
+        </div>
+        <!--End Intro Section-->
+
+      <main class="container">
+        <!--Benefactors Section-->
+
+      <!-- Start of First Row -->
+      <div class="row align-items-stretch my-sm-3">
+        <!-- CIRA and acorn -->
+        <div class="col-xl-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">Benefactors</h2>
+          <p class="text-center flex-grow-1">
+            The Chebucto Community gives its thanks to the generous grants from CIRA and ACORN-NS. Because of this, Chebucto Wireless can now help provide internet access to Ahern Manor (2313 Gottingen Street), Sunrise Manor (2406 Gottingen Street), and Gordon B Isnor Manor (5565 Cornwallis Street).
+          </p>
+          <div class="d-flex justify-content-center mt-auto">
+            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+              <a class="text-white text-decoration-none" href="https://www.halifaxpubliclibraries.ca/">Learn More &rightarrow;</a>
+            </button>
+          </div>
+        </div>
+        <!-- Halifax Public Libraries -->
+        <div class="col-xl-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">Halifax Public Libraries</h2>
+          <div class="row align-items-center my-sm-3 flex-grow-1">
+            <div class="col-5 container-fluid d-none d-md-block">
+              <a href="https://www.halifaxpubliclibraries.ca/">
+                <img src="/Images/HPL_Logo_Horizontal_Master_RGB.png" class="img-fluid" width="200" height="100">
+              </a>
+            </div>
+            <div class="col-md-5 container-fluid d-flex flex-column">
+              <p class="text-right flex-grow-1">
+                The Halifax Public Libraries have provided much needed support to Chebucto Community Net during its early years with Organizational support, training, and space for public access terminals.
+              </p>
+              <div class="d-flex justify-content-center mt-auto">
+                <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+                  <a class="text-white text-decoration-none" href="https://www.halifaxpubliclibraries.ca/">Learn More &rightarrow;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of First Row -->
+
+      <!-- Start of Second Row -->
+      <div class="row align-items-stretch my-sm-3">
+        <!-- Dal Facult CompSci -->
+        <div class="col-xl-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">Dalhousie University Faculty of Computer Science</h2>
+          <div class="row align-items-center my-sm-3 flex-grow-1">
+            <div class="col-5 container-fluid d-none d-md-block">
+              <a href="https://www.dal.ca/faculty/computerscience.html">
+                <img src="/Images/dalhousie-logo-black.svg" class="img-fluid" width="200" height="200">
+              </a>
+            </div>
+            <div class="col-md-5 container-fluid d-flex flex-column">
+              <p class="text-right">
+                The Faculty of Computer Science has provided capable university co-op students who have worked in the development of further technical enhancements at Chebucto.
+              </p>
+              <div class="d-flex justify-content-center mt-auto">
+                <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+                  <a class="text-white text-decoration-none" href="https://www.dal.ca/faculty/computerscience.html">Learn More &rightarrow;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dal Comp ITS -->
+        <div class="col-xl-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">Dalhousie University Computing and Information Services</h2>
+          <div class="row align-items-center my-sm-3 flex-grow-1">
+            <div class="col-5 container-fluid d-none d-md-block">
+              <a href="https://www.dal.ca/dept/its.html">
+                <img src="/Images/dalhousie-logo-black.svg" class="img-fluid" width="200" height="200">
+              </a>
+            </div>
+            <div class="col-md-5 container-fluid d-flex flex-column">
+              <p class="text-right">
+                Dalhousie UCIS provides network connectivity to Chebucto Community Net, offers network support and has donated equipment to Chebucto.
+              </p>
+              <div class="d-flex justify-content-center mt-auto">
+                <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+                  <a class="text-white text-decoration-none" href="https://www.dal.ca/dept/its.html">Learn More &rightarrow;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Start of Third Row -->
+      <div class="row align-items-stretch my-sm-3">
+        <!-- Dal Facult CompSci -->
+        <div class="col-lg-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">ISED Canada</h2>
+          <div class="row align-items-center my-sm-3 flex-grow-1">
+            <div class="col-5 container-fluid d-none d-md-block">
+              <a href="https://ised-isde.canada.ca/site/ised/en">
+                <img src="/Images/Government_of_Canada_logo.svg.png" class="img-fluid" width="200" height="40">
+              </a>
+            </div>
+            <div class="col-md-5 container-fluid">
+              <p class="text-right">
+                Industry, Science and Economic Development Canada provided funding for the development and implementation of the CSuite software which allows community nets to access resources and develop community networking capabilities.
+              </p>
+              <div class="d-flex justify-content-center mt-auto">
+                <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+                  <a class="text-white text-decoration-none" href="https://ised-isde.canada.ca/site/ised/en">Learn More &rightarrow;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Other Supporters -->
+        <div class="col-lg-5 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+          <h2 class="text-center mb-3">Other Supporters</h2>
+          <div class="row align-items-center my-sm-3 flex-grow-1">
+            <div class="col-5 container-fluid d-none d-md-block">
+              <a href="https://www.chebucto.ns.ca/iplist-abc.shtml">
+                <img src="Images/CCNIcon.png" class="img-fluid" width="200" height="200">
+              </a>
+            </div>
+            <div class="col-md-5 container-fluid">
+              <p class="text-right">
+                We have many people who have asked us to host their websites, who collectively are known as the Chebucto Community. To take a look at their websites, click the link below to see the entire list.
+              </p>
+              <div class="d-flex justify-content-center mt-auto">
+                <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-3 btnRectangle d-md-none">
+                  <a class="text-white text-decoration-none" href="https://www.chebucto.ns.ca/iplist-abc.shtml">Learn More &rightarrow;</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Benefactors Section-->
+      </main>
+
+      <!--Footer Section-->
+      <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+      </footer>
+      <!--Footer Section End-->
+      </div>
+    </body>
+</html>

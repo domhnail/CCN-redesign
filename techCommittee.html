@@ -1,0 +1,168 @@
+<!--
+    Home Page Mockup for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/05/22
+    Modified: 2024/05/23
+
+    Filename:   policyCommittee.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="The home page for chebucto's client side site">
+      <meta name="keywords" content="Homepage, Email, Donations, Neighbourhood,  Updates">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+      <title>Tech Committee</title>
+      <!--Bootstrap link-->
+      <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="scss/custom.css" rel="stylesheet">
+      <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Home</button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Services</button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">About Us</button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Contact Us</button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button">Login</button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Tech<br>Committee</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+
+      <main class="container">
+          <!-- Row to Contain Text Boxes-->
+          <div class="row my-sm-3">
+              <!-- Column to Contain Terms Of Reference -->
+              <div class="col-lg-6 d-flex flex-column container-fluid h-100">
+                <div class="p-3 mt-3 mt-lg-0 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Our Terms of Reference</h4>
+                    <ol class="my-3">
+                      <li>Plan and design hardware and software facilities and procedures to ensure the reliable operation of the best possible system for the delivery of information and communication services to the community. On an ongoing basis, implement these facilities.</li>
+                      <li>Report to the Board the technical management needs of the Chebucto Community Net.</li>
+                      <li>Respond to the needs of the Board and its committees, providing technical solutions where possible.</li>
+                      <li>Be aware of the activities of others using Chebucto Community Net and proactively suggest technical solutions to their needs.</li>
+                      <li>Ensure procedures are established and followed to maintain system security.</li>
+                      <li>Monitor the activity of Chebucto Community Net and routinely report usage information, including but not limited to number of users, number of registered Information Providers, and volume of traffic. Keep the Board informed regarding future needs of the system, particularly where more than a routine expenditure will be required.</li>
+                      <li>Actively search, acquire and test freely distributable software that may be suitable for use on the CommunityNet.</li>
+                      <li>Distribute locally developed software to other CommunityNets and other interested parties.</li>
+                      <li>On request, and when possible, help other Community Nets (particularly those in Nova Scotia) with their technical needs.</li>
+                    </ol>
+                </div>            
+              </div>
+              <!-- End of Column to Contain Terms Of Reference -->
+              <!-- Column to Contain Contact List and Current Projects -->
+              <div class="col-lg-5 my-3 my-lg-0 d-flex flex-column container-fluid">
+                <!-- Contact List -->
+                <div class="border border-5 border-success bg-distinguishedWhite p-3">
+                  <h3 class="text-black">Contact List</h4>
+                    <ul class="list-unstyled my-3">
+                      <li>Edward Dyer aa146@chebucto.ns.ca</li>
+                      <li>Landon Boyd landon@chebucto.ns.ca</li>
+                      <li>Joey Comeau aw096@chebucto.ns.ca</li>
+                      <li>Norman L. DeForest af380@chebucto.ns.ca</li>
+                      <li>Ed Dyer aa146@chebucto.ns.ca</li>
+                      <li>James Fifield fifield@cs.dal.ca</li>
+                      <li>Carrie Gates gates@cs.dal.ca</li>
+                      <li>Kassiem Jacobs kassiem@csuite.ns.ca</li>
+                      <li>Trent MacDougall aa002@chebucto.ns.ca</li>
+                      <li>David Murdoch murdoch@csuite.ns.ca</li>
+                      <li>David Potter potter@chebucto.ns.ca</li>
+                      <li>Michael Smith michael@csuite.ns.ca</li>
+                      <li>Andrew D. Wright au141@chebucto.ns.ca</li>
+                    </ul>                    
+                </div>
+                <!-- End of Contact List -->
+                <!-- Current Projects -->
+                <div class="border border-5 border-success bg-distinguishedWhite p-3 my-3">
+                  <h3 class="text-black">Current Projects</h4>
+                    <p class="my-3">
+                      If you'd like to volunteer to help with one of these, drop us a line (ccn-tech@chebucto.ns.ca).
+                    </p>
+                    <ul class="my-3">
+                      <li>Update this list</li>
+                      <li>Backup office machines using Amanda</li>
+                      <li>Shell Programming Course - Bulk mailer</li>
+                      <li>IMP webmail</li>
+                      <li>Provincial server - ?</li>
+                      <li>Mail server?</li>
+                      <li>Time quota for PPP (instead of fixed 1-hour sessions)</li>
+                      <li>Expiries for PPP accounts</li>
+                      <li>System monitoring ala Big Brother (but better) - OverCR?</li>
+                      <li>Upgrade PINE?</li>
+                    </ul>                    
+                </div>
+                <!-- End of Current Projects -->
+              </div>
+              <!-- End of Column to Contain Contact List and Current Projects -->
+          </div>
+          <!-- End of Row to Contain Text Boxes -->
+      </main>
+
+        <!--Footer Section-->
+        <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </footer>
+        <!--Footer Section End-->
+      </div>
+    </body>
+</html>

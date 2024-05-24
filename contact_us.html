@@ -1,0 +1,177 @@
+<!--
+    Contact Page mockup for CCN
+
+    Author: Cole O'Donnell
+    Initial Date: 2024/05/10
+    Modified: 2024/05/17
+
+    Filename:   contact_us.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Lists contact info and provides a messaging system to the user.">
+      <meta name="keywords" content="Supporters, Community, Dalhousie, Library, Neighborhood">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width">
+      <title>Contact Us</title>
+      <!--Bootstrap link-->
+      <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="scss/custom.css" rel="stylesheet">
+      <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Home</button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Services</button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">About Us</button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button">Contact Us</button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button">Login</button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <div class="container-fluid px-0 position-relative">
+            <img src="Images/contactUs.png" class="img-fluid" style="width: 100%; height: 10vh;" alt="Contact Us Banner">
+        </div>
+        <!-- Hero Section End -->
+
+        <main class="container">
+        <!-- Contact Info Section -->
+        <div class="container-fluid p-3 my-3 border border-5 border-success" style="max-width: 80%;">
+            <h2 class="text-center color-chebuctoDeepGrn">Looking to Reach Out?</h2>
+            <div class="d-flex justify-content-center my-4">
+              <a class="color-chebuctoDeepGrn text-decoration-none" href="https://www.facebook.com/ChebuctoCommNet"><img src="Images/facebookIcon.png" class="mx-3" width="70" height="70" alt="faceBookIcon"></a>
+              <a class="color-chebuctoDeepGrn text-decoration-none" href="https://X.com/ChebuctoCommNet"><img src="Images/twitterIcon.png" class="mx-3" width="70" height="70" alt="twitterIcon"></a>
+            </div>
+            <p class="text-center fs-4">
+                The Chebucto office email : <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="mailto:office@chebucto.ns.ca">office@chebucto.ns.ca</a>
+                <br>
+                Office Telephone Number : <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="tel:902-593-1249">902-593-1249</a>
+                <br>
+                When calling for assistance please leave a detailed message.
+                <br>
+                All calls will be returned within 24 hours.
+            </p>
+          </div>
+        <!-- Contact Info Section End -->
+
+        <!-- Chebucto Mailing Address Section -->
+        <div class="container-fluid p-3 my-3 border border-5 border-success" style="max-width: 80%;">
+            <h2 class="text-center color-chebuctoDeepGrn">Chebucto's Mailing Address</h2>
+            <div class="text-center fs-4">
+                <p class="color-chebuctoDeepGrn fw-bold">
+                  <br>
+                  Chebucto Community Net
+                  <br>
+                  PO Box 9253 CSC
+                  <br>
+                  Halifax, N.S.
+                  <br>
+                  B3K 5M8
+                  <br>
+                </p>
+                Existing members please include your account name in your communications with us.
+              </div>
+          </div>
+        <!-- Chebucto Mailing Address Section End -->
+        
+        <!-- Chebucto Support Email Section -->
+        <div class="container-fluid p-3 my-3 border border-5 border-success" style="max-width: 80%;">
+            <h2 class="text-center color-chebuctoDeepGrn">Chebucto Support Email Addresses</h2>
+            <div class="text-left px-xl-5 py-4 fs-5">
+
+            <p>
+               <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="mailto:userhelp@chebucto.ns.ca">userhelp@chebucto.ns.ca</a> : For general technical support or general help with Chebucto services, please send an email detailing the problem to listed email.
+            </p>
+
+            <p>
+                <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="mailto:ch1@chebucto.ns.ca">ch1@chebucto.ns.ca</a> : To send us a notice for an upcoming activity or event that you would like posted on our Upcoming Events page, please send it as TEXT ONLY (NO .doc, .pdf or other attachments) to the posted email above and we will post it for you.
+            </p>
+
+            <p>
+                <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="mailto:abuse@chebucto.ns.ca">abuse@chebucto.ns.ca</a> : To report a problem with a Chebucto user, please send a detailed email to the posted email above. If the report is about a Chebucto user spamming (sending unsolicited commercial email), or otherwise using our services to send messages in violation of our <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="https://www.chebucto.ns.ca/Services/Registration/UserAgreement.shtml">User Agreement</a> you must include the message with its full headers intact. There is more information available online <a class="color-chebuctoDeepGrn text-decoration-none fw-bold" href="https://www.chebucto.ns.ca/Chebucto/Policy/">here</a>. 
+            </p>
+          </div>
+        </div>  
+        <!-- Chebucto Support Email Section End -->
+        
+        <!-- Chebucto Messaging Form Section -->
+        <div class="container-fluid p-3 my-3 border border-5 border-success" style="max-width: 80%;">
+            <h2 class="text-center color-chebuctoDeepGrn">Send us a message!</h2>
+            <!-- Start of  Message Form -->
+            <form action="https://www.chebucto.ns.ca/cgi-bin/secure-talk" method="POST">
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <div class="mb-3">
+                <label for="inputNumber" class="form-label">Phone number (optional)</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <div class="mb-3">
+                <label for="messageInput" class="form-label">Your message</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <button type="reset" class="btn btn-outline-success bg-chebuctoGrn text-white">Clear Form</button>
+              <button type="submit" class="btn btn-outline-success bg-chebuctoGrn text-white">Send Secure Message</button>
+            </form>
+        </div>
+      <!-- Chebucto Messaging Form Section End -->
+      </main>
+      <!--Footer Section-->
+      <footer class="mt-auto">
+        <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+          <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+          © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+        </div>
+      </footer>
+      <!--Footer Section End-->
+      </div>
+    </body>
+</html>
