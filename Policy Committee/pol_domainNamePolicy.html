@@ -1,0 +1,272 @@
+<!--
+    Policy Committee Pages for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/05/29
+    Modified: 2024/05/29
+
+    Filename:   policyCommittee.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Page containing content from the policy committee">
+      <meta name="keywords" content="Committees, Policy">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+      <title>Policy Committee</title>
+      <!--Bootstrap link-->
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="/scss/custom.css" rel="stylesheet">
+      <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="/Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="home.html">Home</a></button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Services.html">Services</a></button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="AboutUs.html">About Us</a></button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Contact_Us.html">Contact Us</a></button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button"><a class="text-black text-decoration-none" href="Payment.html">Login</a></button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Policy<br>Committee</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="/Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="/Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+
+      <main class="container">
+          <!-- Row to Contain Buttons and Text Box -->
+          <div class="row my-sm-3">
+              <!-- Column to Contain Buttons -->
+              <div class="col-lg-3 align-self-start d-flex flex-column container-fluid p-3 my-3 bg-chebuctoPalerGrn shadow-lg">
+                <!-- Mobile Screen Buttons -->
+                <div class="dropdown d-lg-none container-fluid d-flex flex-column p-0 my-3 justify-content-center">
+                  <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    See More
+                  </button>
+                      <ul class="dropdown-menu w-100 m-0 p-0">
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                          </li>
+                      </ul>
+                </div>
+                <!-- Desktop Screen Buttons -->
+                <div class="d-none d-lg-flex flex-column">
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                  </div> 
+                </div>
+              </div>
+              <!-- End of Column to Contain Buttons -->
+              <!-- Column to Contain Text Box -->
+              <div class="col-lg-7 container-fluid">
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Introduction</h4>
+                  <p class="my-3">
+                    Sub-Domains are a form of Virtual Domain Name which do not require an external internet registrar or registration, unlike regular domain names. Sub-Domain names take the form of a name preceding the main domain name, separated by a dot. For example, plus.chebucto.ca is a sub-domain of the domain chebucto.ca.<br><br>
+                    The Chebucto Community Net can offer sub-domains for all domains owned by Chebucto. The following policy on usage and the Fee Schedule was approved by the Chebucto Board of Directors on 12 March 2002. 
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">chebucto.ns.ca,chebucto.ca</h4>
+                  <p class="my-3">
+                    These domain names would remain for internal Chebucto use only. Chebucto will not give out sub-domain names to outside clients or mail redirection using these two Chebucto domain names. Standard URLs like chebucto.ns.ca/username/ remain the same.<br><br>
+                    Technical Committee test domain names would take the form NAME.test.chebucto.EXTENSION 
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">chebucto.net</h4>
+                  <p class="my-3">
+                    Available to individuals and families as Virtual Family Seats, taking the form FAMILYNAME.chebucto.net (where FAMILYNAME can be any family name, all lower case letters), which may be set to point to any Chebucto webspace. Email aliases will be available, taking the form address@FAMILYNAME.chebucto.net. For example, Jane Smith could have the sub-domain name smith.chebucto.net pointing to her own website and have the email alias jane@smith.chebucto.net which may be set to redirect mail to any mail account Jane Smith chooses. The entire Smith family could have such email redirects and use them as a permanent mail address no matter what Internet Service Provider anywhere in the world they had an email account with. These email redirects could be changed to point to any new email address the user prefers as they change their real email account from time to time. Chebucto reserves the right to refuse or discontinue any email redirection at its discretion.<br><br>
+                    Families wishing to set up a non-profit Clan website using the family sub-domain name would be welcome to apply for a <a href="http://www.chebucto.ns.ca/Services/nbor.shtml">Non-Profit Neighbourhood Account</a>.
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">chebucto.org</h4>
+                  <p class="my-3">
+                    Non-profit organizations and Chebucto's own charitable activities could use sub-domains of the form NAME.chebucto.org, where NAME would be replaced by the organization name or acronym in lower case letters and would point to the organization's Chebucto webspace. Email aliases of the form address@NAME.chebucto.org would be available to the organization and could be set to redirect to any real mailbox. Only actual non-profit organizations hosted on Chebucto could get names representing them, so that for example only the real Red Cross (to pick a name out of the air) could have the sub-domain redcross.chebucto.org and its associated email aliases. <br>
+                    Groups meeting the criteria for the <a href="http://www.chebucto.ns.ca/Services/nbor.shtml">Non-Profit Basic Neighbourhood Account</a> fee waiver could have their sub-domain name fee waived also if they wished to have one. 
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Introduction</h4>
+                  <p class="my-3">
+                    Sub-Domains are a form of Virtual Domain Name which do not require an external internet registrar or registration, unlike regular domain names. Sub-Domain names take the form of a name preceding the main domain name, separated by a dot. For example, plus.chebucto.ca is a sub-domain of the domain chebucto.ca.<br><br>
+                    The Chebucto Community Net can offer sub-domains for all domains owned by Chebucto. The following policy on usage and the Fee Schedule was approved by the Chebucto Board of Directors on 12 March 2002. 
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">chebucto.biz</h4>
+                  <p class="my-3">
+                    Chebucto.biz sub-domains are available for For-Profit small business use and would take the form BUSINESSNAME.chebucto.biz where BUSINESSNAME would be replaced by a business name in lower case letters and point to Chebucto For-Profit Neighbourhood account webspace. Email aliases of the form address@BUSINESSNAME.chebucto.biz would be available and could redirect mail to any real mail account anywhere.
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">chebucto.info</h4>
+                  <p class="my-3">
+                    Reserved for Chebucto-based information resources, sub-domains would take the form NAME.chebucto.info, where NAME would be replaced by the information resource name or acronym in lower case letters. Email aliases of the form address@NAME.chebucto.info would be available.
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Outside Domain Name
+                    and Email Redirection</h4>
+                  <p class="my-3">
+                    Chebucto can provide domain name redirection for any valid registered domain name not already pointing to a host webspace. The domain name would direct web traffic to webspace hosted on a different Internet Service Provider.<br><br>
+                    Chebucto can also provide email redirection for addresses at valid registered domain names that do not already have email redirection configured with another Internet Service Provider. These email redirects could be configured to point to any real mailbox on any Internet Service Provider. Chebucto reserves the right to refuse or discontinue any outside domain name redirection or email aliasing at its discretion. 
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Fee Schedule</h4>
+                    <table class="table table-bordered my-2">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">Service</th>
+                          <th scope="col">Cost</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Regular Domain Name<br><small>[Requires valid Domain Name registration]</small></td>
+                          <td>$100 per year, $25 one-time setup charge. More</td>
+                        </tr>
+                        <tr>
+                          <td>Sub-Domain Name</td>
+                          <td>$20 per year, except as noted above for qualifying Non-Profit accounts</td>
+                        </tr>
+                        <tr>
+                          <td>Mail redirection to registered Sub-Domain Name</td>
+                          <td>$10 per year per alias address</td>
+                        </tr>
+                        <tr>
+                          <td>Outside Domain Name Redirection<br><small>[Requires valid Domain Name registration]</small></td>
+                          <td>$50 per year</td>
+                        </tr>
+                        <tr>
+                          <td>Mail redirection to Outside Domain Name<br><small>[Requires valid Domain Name registration]</small></td>
+                          <td>$15 per year per alias address</td>
+                        </tr>
+                      </tbody>
+                    </table>                                      
+                </div>
+              <!-- End of Column to Contain Text Box -->
+            </div>
+          <!-- End of Row to Contain Buttons and Text Box -->
+      </main>
+
+        <!--Footer Section-->
+        <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </footer>
+        <!--Footer Section End-->
+      </div>
+    </body>
+</html>

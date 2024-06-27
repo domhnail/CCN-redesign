@@ -1,0 +1,294 @@
+<!--
+    Policy Committee Pages for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/05/29
+    Modified: 2024/05/29
+
+    Filename:   policyCommittee.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Page containing content from the policy committee">
+      <meta name="keywords" content="Committees, Policy">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+      <title>Policy Committee</title>
+      <!--Bootstrap link-->
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="/scss/custom.css" rel="stylesheet">
+      <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="/Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="home.html">Home</a></button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Services.html">Services</a></button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="AboutUs.html">About Us</a></button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Contact_Us.html">Contact Us</a></button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button"><a class="text-black text-decoration-none" href="Payment.html">Login</a></button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Policy<br>Committee</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="/Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="/Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+
+      <main class="container">
+          <!-- Row to Contain Buttons and Text Box -->
+          <div class="row my-sm-3">
+              <!-- Column to Contain Buttons -->
+              <div class="col-lg-3 align-self-start d-flex flex-column container-fluid p-3 my-3 bg-chebuctoPalerGrn shadow-lg">
+                <!-- Mobile Screen Buttons -->
+                <div class="dropdown d-lg-none container-fluid d-flex flex-column p-0 my-3 justify-content-center">
+                  <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    See More
+                  </button>
+                      <ul class="dropdown-menu w-100 m-0 p-0">
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                          </li>
+                      </ul>
+                </div>
+                <!-- Desktop Screen Buttons -->
+                <div class="d-none d-lg-flex flex-column">
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                  </div> 
+                </div>
+              </div>
+              <!-- End of Column to Contain Buttons -->
+              <!-- Column to Contain Text Box -->
+              <div class="col-lg-7 d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                <h3 class="text-black">By-Laws of
+                  the Chebucto Community Net Society
+                  2007</h4>
+                <p class="my-3">
+                  <ol>
+                      <li>In these By-laws unless there be something in the subject or context inconsistent therewith<br>
+                          (a) "Society" means the Chebucto Community Net Society.<br>
+                          (b) "Registrar" means the Registrar of Joint Stock Companies appointed under the Nova Scotia Companies Act.<br>
+                          (c) "Special Resolution" means a resolution passed by not less than three-fourths of such members entitled to vote as are present in person at a general meeting of which notice specifying the intention to propose the resolution as a special resolution has been duly given.
+                      </li>
+                  </ol>
+
+                  <h3>MEMBERSHIP</h3>
+                  <ol start="2">
+                      <li>The subscribers to the Memorandum of Association and such other persons as shall be admitted to membership in accordance to these By-laws, and none others, shall be members of the Society, and their names shall be entered in the Register of Members accordingly.</li>
+                      <li>Every member of the Society shall be entitled to attend any meeting of the Society and to vote at any meeting of the Society.</li>
+                      <li>Membership in the Society shall not be transferable.</li>
+                      <li>The following shall be admitted to membership in the Society:<br>
+                          (a) any individual who completes the Application Form and pays the annual dues prescribed by the Board of Directors and who shall be referred to as an Individual Member.<br>
+                          (b) a body corporate or other organization which completes the Application Form and pays the annual dues prescribed by the Board of Directors and which shall be referred to as an Institutional Member.
+                      </li>
+                      <li>No formal admission to membership shall be required and the entry in the Register of Members by the Secretary of the name and address of any organization or individual shall constitute an admission to membership in the Society.</li>
+                      <li>Membership in the Society shall cease upon:<br>
+                          (a) the death of a member, or<br>
+                          (b) if, by notice in writing to the Society, the member resigns their membership, or<br>
+                          (c) the expiration of the term of the previous valid membership<br>
+                          (d) the Directors, by a resolution passed by not less than three fourths of the Directors present at a Directors meeting, vote to remove the membership of an organization or individual.
+                      </li>
+                  </ol>
+
+                  <h3>FISCAL YEAR</h3>
+                  <ol start="8">
+                      <li>The fiscal year of the Society shall be the period from January 1 in any year to January 1 in the year next following.</li>
+                  </ol>
+
+                  <h3>MEETINGS</h3>
+                  <ol start="9">
+                      <li>(a) The annual general meeting of the Society shall be held within four months after the end of each fiscal year of the Society.<br>
+                          (b) An extraordinary general meeting of the Society may be called by the Chair or by the Directors at any time, and shall be called by the Directors if requisitioned in writing by at least one hundred (100) in number of the members of the Society.
+                      </li>
+                      <li>At least three days' notice of a meeting, specifying the place, day and hour of the meeting and, in the case of special business, the nature of such business, shall be given to the members. Notice shall be given in writing by sending it via E-mail on the Chebucto Community Net.<br><br>
+                          The non-receipt of any notice by any member shall not invalidate the proceedings at any general meeting.<br><br>
+                          Any notice shall be deemed to have been given at the time when the letter containing the same would be delivered in the ordinary course of electronic mail on the Chebucto Community Net. In proving such service it shall be sufficient to prove that the text of the notice was properly entered and sent on the Chebucto Community Net.
+                      </li>
+                      <li>At each annual general meeting of the Society, the following items of business shall be dealt with and shall be deemed to be ordinary business:<br><br>
+                          Minutes of preceding general meeting;<br><br>
+                          Consideration of the annual report of the Directors;<br><br>
+                          Consideration of the financial statements, including balance sheet and operating statement and the report of the auditors, if any, thereon;<br><br>
+                          Election of Directors for the ensuing year;<br><br>
+                          Appointment of Auditors.<br><br>
+                          All other business transacted at an annual general meeting shall be deemed to be special business and all business shall be deemed special that is transacted at an extraordinary general meeting of the Society.
+                      </li>
+                      <li>No business shall be transacted at any meeting of the Society unless a quorum of members is present at the commencement of such business and such quorum shall consist of twenty (20) members.</li>
+                      <li>If within one-half hour from the time appointed for the meeting, a quorum of members is not present, the meeting, if convened upon the requisition of the members, shall be dissolved. In any other case, it shall stand adjourned to such time and place as a majority of the members then present shall direct and if at such adjourned meeting a quorum of members is not present, it shall be adjourned without date.</li>
+                      <li>(a) The Chair of the Society shall preside as Chair at every general meeting of the Society.<br>
+                          (b) If there is no Chair or if at any meeting he or she is not present at the time of holding the same, the Vice-Chair shall preside as Chair.<br>
+                          (c) If there is no Chair or Vice-Chair or if at any meeting neither the Chair nor the Vice-Chair is present at the holding of the same, the members present shall choose someone of their number to be Chair.
+                      </li>
+                      <li>The Chair shall have no vote except in the case of an equality of votes. In the case of an equality of votes, he or she shall have a casting vote.</li>
+                      <li>The Chair may, with the consent of the meeting, adjourn any meeting from time to time and from place to place, but no business shall be transacted at any adjourned meeting, other than the business left unfinished at the meeting from which the adjournment took place, unless notice of such new business is given to the members.</li>
+                      <li>At any general meeting, unless a poll is demanded by at least three members, a declaration by the Chair that a resolution has been carried and an entry to that effect in the book of the proceedings of the Society shall be sufficient evidence of the fact, without proof of the number or proportion of the members recorded in favour of or against such resolution.</li>
+                      <li>If a poll is demanded in manner aforesaid, the same shall be taken in such manner as the Chair may prescribe and the result of such poll shall be deemed to be the resolution of the Society in general meeting.</li>
+                  </ol>
+
+                  <h3>VOTES OF MEMBERS</h3>
+                  <ol start="19">
+                      <li>Every member shall have one vote and no more. Voting proxies are not permitted.</li>
+                  </ol>
+
+                  <h3>OFFICERS</h3>
+                  <ol start="20">
+                      <li>The Officers of the Society shall be the Chair, Vice-Chair, Treasurer and Secretary. The offices of Treasurer and Secretary may be combined. The Officers shall be elected by the Directors from amongst their number at the first meeting of the Directors following each Annual General Meeting. The Directors may elect two persons to fill any position as an Officer, in which case that position shall be designated with "Co-" prior to the proper name of that Office. In such case, each individual filling that office shall have authority to exercise the full powers and authorities vested in that Office by these By-Laws.<br><br>
+                          [Proposed amendment 2007:<br><br>
+                          The Officers of the Society shall be the Chair, Vice Chair, Treasurer, Secretary and Past Chair. The offices of Treasurer and Secretary may be combined. The Officers with the exception of Past Chair shall be elected by the Directors from amongst their numbers at the first meeting of the Directors following each Annual General Meeting. The Directors may elect two persons to fill any position as an Officer, in which case that position shall be designated with "Co-" prior to the proper name of that Office. In such case, each individual filling that office shall have authority to exercise the full powers and authorities vested in that Office by these by-laws.]
+                      </li>
+                      <li>The Chair shall have general supervision of the activities of the Society and shall perform such duties as may be assigned by the Board of Directors from time to time.</li>
+                      <li>The Vice-Chair shall, at the request of the Board and subject to its directions, perform the duties of the Chair during the absence, illness or incapacity of the Chair, or during such period as the Chair may request to do so.</li>
+                      <li>(a) There shall be a Secretary of the Society who shall keep the minutes of the meetings of members and Directors and shall perform such other duties as may be assigned to him or her by the Board.<br>
+                          (b) The Directors may appoint a temporary substitute for the Secretary who shall, for the purpose of these bylaws, be deemed to be the secretary.<br>
+                          (c) There shall be a Treasurer of the Society who shall receive and deposit all monies paid to or received by the Society, keep a record of all receipts and disbursements, prepare financial reports to be presented at each general meeting, and pay all bills incurred by the Society and approved by the Directors.
+                      </li>
+                      <li>The Officers of the Society serve
+
+                  as members of the Executive Committee of the Board. The Executive Committee shall have full authority to exercise all powers of the Board between meetings of the Board.</li>
+                  </ol>
+
+                  <h3>DIRECTORS</h3>
+                  <ol start="25">
+                      <li>Unless otherwise determined by general meeting, the number of Directors shall not be less than five and not more than fifteen, but if the number is reduced below five, the continuing Directors may act for the purpose of increasing the number of Directors to five, or of summoning a general meeting of the Society, but for no other purpose.</li>
+                      <li>The Board of Directors shall consist of the officers and additional Directors. Directors shall be elected by the members at each annual general meeting of the Society. In addition, the Directors may at any time appoint an Individual Member as a Director to fill any casual vacancy in the Board of Directors. Any Director so appointed shall hold office only until the next annual general meeting of the Society, but shall be eligible for re-election at that meeting.</li>
+                      <li>The management of the activities of the Society shall be vested in the Directors who, in addition to the powers and authorities by these By-laws or otherwise expressly conferred upon them, may exercise all such powers and do all such acts and things as may be exercised or done by the Society and are not hereby or by statute expressly directed or required to be exercised or done by the Society in general meeting. In particular, the Directors shall have power to engage a Coordinator and to determine his or her duties and responsibilities and his or her remuneration. The Directors may appoint an Executive Committee, consisting of the officers and such other persons as the Directors decide.</li>
+                  </ol>
+
+                  <h3>AUDIT OF ACCOUNTS</h3>
+                  <ol start="28">
+                      <li>The Auditor of the Society shall be appointed annually by the members of the Society at the annual general meeting and, on failure of the members to appoint an Auditor, the Directors may do so.<br><br>
+                          The Society shall make a written report to the members as to the financial position of the Society and the report shall contain a balance sheet and operating account. The Auditors, if any, shall make a written report to the members upon the balance sheet and operating account, and in every such report, they shall state whether, in their opinion, the balance sheet is a full and fair balance sheet containing the particulars required by the Society and properly drawn up so as to exhibit a true and correct view of the Society's affairs, and such report shall be read at the annual general meeting.
+                      </li>
+                  </ol>
+
+                  <h3>MISCELLANEOUS</h3>
+                  <ol start="29">
+                      <li>The Society has power to repeal or amend any of these By-laws by a Special Resolution passed in the manner prescribed by law.</li>
+                      <li>The Board may prescribe such rules and regulations not inconsistent with these By-laws relating to the management and operation of the Society as they deem expedient, provided that such rules and regulations shall have force and effect only until the next annual general meeting of the members of the Society, when they shall be confirmed, and failing such confirmation at such annual general meeting, shall at and from that time cease to have any force and effect.</li>
+                      <li>The Society shall file with the Registrar with its Annual Statement a list of its Directors with their addresses, occupations and dates of appointment or election, and within fourteen days of a change of Directors, notify the Registrar of the change.<br><br>
+                          The Society shall file with the Registrar a copy in duplicate of every Special Resolution within fourteen days after the resolution is passed.
+                      </li>
+                  </ol>
+                </p>
+              </div>
+              <!-- End of Column to Contain Text Box -->
+          </div>
+          <!-- End of Row to Contain Buttons and Text Box -->
+      </main>
+
+        <!--Footer Section-->
+        <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </footer>
+        <!--Footer Section End-->
+      </div>
+    </body>
+</html>

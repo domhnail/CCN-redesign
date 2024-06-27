@@ -1,0 +1,212 @@
+<!--
+    Policy Committee Pages for CCN
+
+    Author: Cole D O'Donnell
+    Initial Date: 2024/05/29
+    Modified: 2024/05/29
+
+    Filename:   policyCommittee.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Page containing content from the policy committee">
+      <meta name="keywords" content="Committees, Policy">
+      <meta name="author" content="Cole O'Donnell">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+      <title>Policy Committee</title>
+      <!--Bootstrap link-->
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--Custom SCSS Link-->
+      <link href="/scss/custom.css" rel="stylesheet">
+      <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+    <body class="bg-offWhite">
+      <!--Flexbox with height set-->
+      <div class="d-flex flex-column vh-100">
+
+        <header>
+          <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-chebuctoGrn">
+            <!--CCN Icon-->
+            <img src="/Images/CCNIcon.png" class="mx-3" width="100" height="100" alt="Chebucto Brand Icon">
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--collapsing navbar-->
+            <div class="navbar-collapse d-lg-inline-flex justify-content-between">
+              <!--nav buttons-->
+              <ul class="navbar-nav flex-grow-1">
+              <!--home-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="home.html">Home</a></button>
+              </li>
+              <!--services-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Services.html">Services</a></button>
+              </li>
+              <!--about us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="AboutUs.html">About Us</a></button>
+              </li>
+              <!--contact us-->
+              <li class="nav-item">
+              <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey rounded-0 mx-xl-4 mx-lg-2 p-2 px-4 btnRectangle" type="button"><a class="text-white text-decoration-none" href="Contact_Us.html">Contact Us</a></button>
+              </li>
+              <!--vanity text-->
+              <div class="flex-grow-1 vanityText"></div>
+              <li class="nav-item">
+              <span class="navbar-text mx-xl-4 mx-lg-2 vanityText" style="font-size: 20px; font-style: italic;">
+              30 years of connectivity
+              </span>
+              </li>
+              <!--login-->
+              <li class="nav-item">
+              <button class="btn btn-outline-success border-3 bg-highlightBlu text-black rounded-0 mx-xl-4 mx-lg-2 p-2 px-4  btnRectangle" type="button"><a class="text-black text-decoration-none" href="Payment.html">Login</a></button>
+              </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <!--Hero Section-->
+        <div class="container">
+          <div class="row align-items-center my-sm-3 shadow-lg rounded-3 bg-distinguishedWhite">
+            <div class="col-sm-3 col-5 container-fluid p-sm-0 px-0 py-5 rounded-3">
+              <h2 class="fw-bold">Policy<br>Committee</h2>
+            </div>
+            <div class="col-sm-5 col-6 contain offset-sm-1 overflow-hidden shadow-lg p-0 rounded-end">
+              <img src="/Images/ChebuctoMainHeroImage2.png" class="w-50 d-sm-block d-none" alt="HeroImage">
+              <img src="/Images/ChebuctoMainHeroImageMobile.jpg" class="d-sm-none d-block" width="400" height="300" alt="AlternateHero">
+            </div>
+          </div>
+        </div>
+        <!--End Hero Section-->
+
+      <main class="container">
+          <!-- Row to Contain Buttons and Text Box -->
+          <div class="row my-sm-3">
+              <!-- Column to Contain Buttons -->
+              <div class="col-lg-3 align-self-start d-flex flex-column container-fluid p-3 my-3 bg-chebuctoPalerGrn shadow-lg">
+                <!-- Mobile Screen Buttons -->
+                <div class="dropdown d-lg-none container-fluid d-flex flex-column p-0 my-3 justify-content-center">
+                  <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    See More
+                  </button>
+                      <ul class="dropdown-menu w-100 m-0 p-0">
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                          </li>
+                          <li class="nav-item">
+                            <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                          </li>
+                      </ul>
+                </div>
+                <!-- Desktop Screen Buttons -->
+                <div class="d-none d-lg-flex flex-column">
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="/policyCommittee.html">Committee Guidelines</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_whatToReport.html">What to report?</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="mailto:abuse@chebucto.ns.ca">Report a problem</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_userAgreement.html">User Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_accountAgreement.html">Account Agreement</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_byLaws.html">By-Laws</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="Payment.html">Annual Reports</a></button>
+                  </div>
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_domainNamePolicy.html">Domain Name Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_acceptableUsePolicy.html">Acceptable Use Policy</a></button>
+                  </div> 
+                  <div class="container-fluid d-flex flex-column p-0 my-2 justify-content-center">
+                    <button class="btn outline-offGrey btn-outline-secondary bg-chebuctoGrey text-white rounded-0 p-2 px-lg-5 btnRectangle"><a class="text-white text-decoration-none" href="pol_commercialUsePolicy.html">Commercial Use Policy</a></button>
+                  </div> 
+                </div>
+              </div>
+              <!-- End of Column to Contain Buttons -->
+              <!-- Column to Contain Text Box -->
+              <div class="col-lg-7 container-fluid">
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">Draft Commercial Policy</h4>
+                  <p class="my-3">
+                    It is the policy of the Chebucto Community Net Society operating the Chebucto Community Net to encourage the growth and success of local small businesses by allowing use of Chebucto Community Net accounts for limited advertising for those businesses and for related commercial purposes.<br><br>
+                    CCN promotes business use by allowing members to:
+                    <ol>
+                      <li>Create and maintain web pages in file directories that promote the particular account holder's local small business;</li>
+                      <li>Advertise their business in appropriate newsgroups in an appropriate manner;</li>
+                      <li>Send commercial email in response to a request for such email;</li>
+                      <li>Maintain a mailing list related to their business, if each request for subscription to that mailing list is documented and can be substantiated upon request by CCN;</li>
+                      <li>Create and use a web site advertising their business as long as the web site contains the phrase "Chebucto Community Net";</li>
+                    </ol>
+                    <br><br>CCN has these restrictions on commercial use:
+                    <ol>
+                      <li>All commercial use must be related to a business that operates in or is registered in Nova Scotia.</li>
+                      <li>CCN may not be used for illegal commercial activity.</li>
+                      <li>CCN may not be used to advertise sexual material.</li>
+                      <li>Commercial use must be conducted in a manner that complies with the spirit and purpose of the Chebucto Community Net Society. CCN reserves the right to instruct users to modify, alter, or cease any activities which it deems unacceptable.</li>
+                      <li>Users shall abide by CCN policies at all times and shall amend their files as policies may change from time to time as directed by the Board of Directors or the Policy on Information Committee.</li>
+                    </ol>                    
+                  </p>
+                </div>
+                <div class="d-flex flex-column container-fluid p-3 my-3 border border-5 border-success bg-distinguishedWhite">
+                  <h3 class="text-black">General notes</h4>
+                  <p class="my-3">
+                    This policy is intended to help local small business take advantage of the opportunities the internet has to offer. We encourage you to take advantage of it. We want to participate in the stimulation of the local economy and allow our creative business and professional community to use our facilities in harmony with those who use CCN for non business purposes. In return we ask you to please view the CCN as a local volunteer resource that exerts a considerable effort to enable small business and professionals to make themselves known to the internet community at large, and not to view us just as "cheap web space". We are not trying to compete with commercial internet service providers.
+                  </p>
+                </div>
+              <!-- End of Column to Contain Text Box -->
+            </div>
+          <!-- End of Row to Contain Buttons and Text Box -->
+      </main>
+
+        <!--Footer Section-->
+        <footer class="mt-auto">
+          <div class="container-fluid bg-chebuctoGrey text-white text-sm-start text-center p-4">
+            <!-- Hyperlinks to Chebucto's Terms of Use, Privacy Policy, and their offical email -->
+            © 2024 • Chebucto Community Net • <a class="ml-4 footerLinkColor text-decoration-none" href="termsOfUse.html">Terms Of Use</a> • <a class="footerLinkColor text-decoration-none" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </footer>
+        <!--Footer Section End-->
+      </div>
+    </body>
+</html>
